@@ -7,7 +7,7 @@ import nltk
 from nltk.corpus import stopwords
 nltk.download('punkt')
 nltk.download('stopwords')
-cv = pickle.load(open("cv.pkl", 'rb'))
+cv = pickle.load(open("../models/cv.pkl", 'rb'))
 
 #function to preprocess the data
 def preprocess(sentence):

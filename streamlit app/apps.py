@@ -4,7 +4,7 @@ import helper
 
 
 
-model=pickle.load(open('duplicate_q_pairs_model.pkl','rb'))
+model=pickle.load(open('../models/duplicate_q_pairs_model.pkl', 'rb'))
 
 
 st.header('Quora Duplicate Question Pairs')
